@@ -508,7 +508,7 @@ const {total}=  useCart() as any
                           defaultValue="A"
                         />
                         <div id="eComPin">
-                          <label className="column-label"> PIN: </label>
+                          <label className="column-label"> Cvv: </label>
                         </div>
                         <div>
                           <input
@@ -523,10 +523,10 @@ const {total}=  useCart() as any
                               })
                             }
                             autoComplete="off"
-                            title="Should be in number. Length should be 4"
+                            title="Should be in number. Length should be 3"
                             type="password"
-                            size={4}
-                            maxLength={4}
+                            size={3}
+                            maxLength={3}
                             className="allownumericwithoutdecimal"
                             style={{ width: '60%' }}
                           />
