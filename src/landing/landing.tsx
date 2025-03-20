@@ -678,7 +678,7 @@ function Landing(props: { handleNextPage: any }) {
                       });
                     }}
                     data-product-id="product_1"
-                    data-product-image="/ab.jpg"
+                    data-product-image="/robi.jpg"
                     data-product-name="Shrimp Offer – “An Irresistible Delight!”     !"
                     data-price={8.0}
                     data-class-add="btn_add_1"
@@ -759,7 +759,7 @@ function Landing(props: { handleNextPage: any }) {
                   <span className="minus">
                     <img
                       alt="3 كرتون دجاج 10 حبة * 1000 جرام"
-                      src="/sebas.jpg"
+                      src="/turkish-sea-bass-800-1000.jpg"
                       decoding="async"
                       data-nimg="fill"
                       style={{
@@ -798,7 +798,7 @@ function Landing(props: { handleNextPage: any }) {
                         id: 0,
                         name: 'Fresh Seabass – A Taste That Amazes!                        ”                            ',
                         price: '4.99',
-                        img: '/sebas.jpg',
+                        img: '/turkish-sea-bass-800-1000.jpg"',
                       });
                     }}
                     data-product-id="product_1"
@@ -1707,7 +1707,7 @@ function Landing(props: { handleNextPage: any }) {
                         type="button"
                         className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t cd-add-to-cart js-cd-add-to-cart "
                         data-product-id="product_3"
-                        data-product-image="https://sam-five-snowy.vercel.app/images/1.png"
+                        data-product-image="/"
                         data-product-name="Cartoon 10 kg Jumbo shrimp مقشر"
                         data-product-price={8.0}
                         data-class-add="btn_add_3"
