@@ -894,7 +894,7 @@ function Landing(props: { handleNextPage: any }) {
                       <span className="minus">
                         <img
                           alt="3 كرتون دجاج 10 حبة * 1000 جرام"
-                          src="/ab.jpg"
+                          src='/ron.webp'
                           decoding="async"
                           data-nimg="fill"
                           style={{
@@ -919,10 +919,10 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        8.00 KD
+                        10.00 KD
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
-                        10 kg shrimp carton - only 8 dinars!                      </p>
+                      10 kg shrimp and get 2 kg salamon - only 10 dinars!                      </p>
                     </div>
                     <div className="a_pluss_1">
                       <a
@@ -931,15 +931,15 @@ function Landing(props: { handleNextPage: any }) {
                         onClick={() => {
                           handleAddtoCart({
                             id: 0,
-                            name: '10 kg shrimp carton - only 8 dinars!”                            ',
-                            price: '8.00',
-                            img: '/ab.jpg',
+                            name: '10 kg shrimp and get 2 kg salamon - only 10 dinars!”                            ',
+                            price: '10.00',
+                            img: '/ron.webp',
                           });
                         }}
                         data-product-id="product_1"
                         data-product-image="/ab.jpg"
                         data-product-name="10 kg shrimp carton - only 8 dinars!"
-                        data-price={8.0}
+                        data-price={10.0}
                         data-class-add="btn_add_1"
                         data-class-remove="btn_remove_1"
                         data-class-pluss="btn_pluss_1"
@@ -2106,7 +2106,7 @@ function Landing(props: { handleNextPage: any }) {
                     >
                       <img
                         alt="Alwataniah Offer"
-                        src="           https://sam-five-snowy.vercel.app/images/1.png"
+                        src="/whaoff.png"
                         decoding="async"
                         data-nimg="fill"
                         style={{
@@ -2264,7 +2264,7 @@ function Landing(props: { handleNextPage: any }) {
                     >
                       <img
                         alt="Today's offers"
-                        src="           https://sam-five-snowy.vercel.app/images/3.png"
+                        src="/ron.webp"
                         decoding="async"
                         data-nimg="fill"
                         style={{
@@ -2302,7 +2302,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="jumbo-robian-10kg"
                     >
-                      <h5 className="Typography_h5__MRrA0">8.000 KD</h5>
+                      <h5 className="Typography_h5__MRrA0">10.000 KD</h5>
                       <div className="a_pluss_3">
                         <a
                           type="button"
@@ -2310,7 +2310,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '10 Cartoon 10 kg Jumbo shrimp مقشر',
-                              price: '8.0',
+                              price: '10.0',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
                           }}
